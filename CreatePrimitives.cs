@@ -7,7 +7,7 @@ public class CreatePrimitives : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Создаем объект, похожий на стива
+        //РЎРѕР·РґР°С‚СЊ РїСЂРёРјРёС‚РёРІ, РїРѕС…РѕР¶РёР№ РЅР° РЎС‚РёРІР°
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(0, 0, 0);
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(-0.5f, 1, 0);
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(0.5f, 1, 0);
